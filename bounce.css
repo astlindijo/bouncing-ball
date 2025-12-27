@@ -1,0 +1,24 @@
+body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    .box {
+        width: 100vw;
+        height: 100vh;
+        border: 3px solid black;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .ball {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+    
